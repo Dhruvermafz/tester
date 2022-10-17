@@ -1,0 +1,80 @@
+To study about RJ 45 in crimping tool
+
+RJ45
+RJ45 is a type of connector commonly used for Ethernet networking. It looks similar to a telephone jack, but is slightly wider. Since Ethernet cables have an RJ45 connector on each end, Ethernet cables are sometimes also called RJ45 cables.
+
+The "RJ" in RJ45 stands for "registered jack," since it is a standardized networking interface. The "45" simply refers to the number of the interface standard. Each RJ45 connector has eight pins, which means an RJ45 cable contains eight separate wires. If you look closely at the end of an Ethernet cable, you can actually see the eight wires, which are each a different color. Four of them are solid colors, while the other four are striped.
+
+RJ45 cables can be wired in two different ways. One version is called T-568A and the other is T-568B. These wiring standards are listed below:
+
+T-568A                                               T-568B
+
+White/Green (Receive +)                        White/Orange (Transmit +)
+Green (Receive -)                              Orange (Transmit -)
+White/Orange (Transmit +)                      White/Green (Receive +)
+Blue                                           Blue
+White/Blue                                     White/Blue
+Orange (Transmit -)                            Green (Receive -)  
+White/Brown                                    White/Brown         
+Brown                                          Brown
+
+
+The T-568B wiring scheme is by far the most common, though many devices support the T-568A wiring scheme as well. Some networking applications require a crossover Ethernet cable, which has a T-568A connector on one end and a T-568B connector on the other. This type of cable is typically used for direct computer-to-computer connections when there is no router, hub, or switch available.
+
+
+Types of RJ45 Cables
+There are two types of RJ45 cables in everyday use: standard patch cables and crossover cables. The standard patch cable may be used, for example, to connect a computer to a network router/switch, or to connect a cable modem to a router/switch. The crossover cable is most often used to connect two computers directly without the use of a router or switch. These cables look identical; the only difference is the termination of the wiring in the cable's plug. Unknowingly using a crossover cable when a standard patch cable is needed probably will not cause damage to the network components--the devices merely won't form a connection.
+
+Uses
+RJ45 technology is frequently used in home and business networking contexts to connect multiple computers both to each other and to the Internet. Additional network-capable devices can also be attached using RJ45 cables. For example, an office may connect a laser printer to its network using RJ45 cables, thus allowing anyone connected to the network to print to the shared printer. Rather than maintaining an expensive computer server, a company may opt to connect a NAS device (network-attached storage) to a network using an RJ45 cable, thus allowing other users connected to the network to access files stored on the NAS device.
+
+Competing Technology
+RJ45 cables are popular choices for most networking needs. Fiber optic technology, however, is a more expensive option that allows for greater speed than RJ45 cables. Wireless technology allows devices to be networked, as well. However, wireless technology has two major faults and prevents the technology from directly competing with RJ45 cables. First, data cannot be transmitted as quickly over wireless connections as it can be through an RJ45 cable. Second, wireless technology has the potential to expose data transmitted over the airwaves to persons with devices capable of "listening" to data transmitted wirelessly; to access communications over a network exclusively using RJ45, a person would need physical access to the network.
+
+Appearance of an RJ45 Cable
+<image of rj45 cable>
+An RJ45 cable consists of a length of cable with a male modular plug crimped to each end of the cable. The male plugs have 8 flat conductor contacts placed parallel to the connector body. When the male plug is connected to the female socket, the conductors meet and create an electrical connection.
+
+What Is an Ethernet Cable?
+Devices in a wired network are usually connected physically to a server, modem, router, or each other with Ethernet cables. Each end of an Ethernet cable has a connector called an RJ45 connector. A Registered Jack 45 (RJ45) connector is a standard type of physical connector for network cables. RJ45 connectors are used almost exclusively with Ethernet cables and networking.
+
+<image of ethernet cable>
+
+Although Ethernet cables have gone through several generations of speed improvements, the RJ45 connector that appears on the ends of the cables has not changed. Whether you use Category 3 through Category 6 cables, the connectors are RJ45. Category 7 cables can be terminated with RJ45 connectors, but they are specialized versions called GigaGate45 (GG45). The GG45 connectors are backward compatible with RJ45 connectors.
+
+Ethernet cables feature small plastic plugs on each end that are inserted into the RJ45 jacks of Ethernet devices. The term plug refers to the cable or male end of the connection while the term jack refers to the port or female end.
+
+Caution
+The male plug of an RJ45 cable looks similar to a standard telephone cable in the United States because both cables use modular connectors. The RJ45 cable is larger than a standard telephone cable. Attempting to plug a telephone cable into an RJ45 female socket can damage the connectors in the socket.
+
+Issues With RJ45s
+RJ45 connectors come with some problems. To form a tight connection between the plug and the network port, some RJ45 plugs make use of a small, bendable piece of plastic called a tab. The tab creates a tighter seal between a cable and a port on insertion, requiring downward pressure on the tab to unplug it. The tab prevents a cable from accidentally coming loose. These tabs easily break when bent backward, which happens when the connector snags on another cable, clothing, or other nearby objects.
+
+Most RJ45 connector problems occur when the wires don't follow the prescribed standard. People who prefer to work on their own cables and connectors must pay close attention to the proper wiring sequence to avoid problems. 
+
+How to Connect Two Computers Using Ethernet Cables
+It is very easy to connect two computers for data transmission using ethernet cables. The CAT-5 or CAT-5e crossover cables are widely used for this purpose and prevent from losing any data during transmission. These cables are quite identical to straight through cables but come with twisted wires on both ends. You can use the following steps to connect two computers using ethernet cables.
+Connect one end of the cable with RJ45 connector into the ethernet port of the computer. Plug the other end of the cable into another computer.
+Log in to one of the computers.
+Go to the search box at the bottom left of the computer and type "Network and Sharing Center" and click it.
+Then go to the "Change Adaptor Settings" on the top left side.
+introduction to rj45, working of rj45, applications of rj45, wiring of rj45, rj45 pinout
+Right click on the "Ethernet" and go to properties.
+Then select "Internet Protocol version 4 TCP/IPv4" and click properties.
+introduction to rj45, working of rj45, applications of rj45, wiring of rj45, rj45 pinout
+Select the IP address and subnet mask at the two computers as mentioned below.
+introduction to rj45, working of rj45, applications of rj45, wiring of rj45, rj45 pinout
+To check the connection, restart both PC and use the below instructions.
+ping 192.168.0.2 -t: from the second PC
+ping 192.168.0.1 -t: from the first PC
+Right click on this PC option and click on "Change Settings" option.
+introduction to rj45, working of rj45, applications of rj45, wiring of rj45, rj45 pinout
+The "Workgroup" name should be identical in both PC, otherwise, ethernet connection won't work.
+If you want to share whole drive, just right click on the drive you want to share and select share with "Advanced Sharing Options" and check the box beside share this folder option and click "OK" to apply changes.
+introduction to rj45, working of rj45, applications of rj45, wiring of rj45, rj45 pinout
+Applications
+RJ45 are mainly used in ethernet cables for data transmission. They come in two types i.e. T-568A and T-568B.
+As compared to the RJ11 connector, RJ45 comes with more applications including ethernet networking, industrial automation, and telecommunications.
+That's all for today. I hope I have given you everything you need to know about RJ45. However, if you are feeling skeptical or have any question, you can approach me in the comment section below. I'd love to help you in any way I can. Feel free to keep us updated with your valuable feedback and suggestions, they help us provide you quality work so you keep coming back for what we have to offer. Thanks for reading the article.
+
+https://www.theengineeringprojects.com/2018/07/introduction-to-rj45.html
